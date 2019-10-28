@@ -1,1 +1,8 @@
-
+X1 = int(input("First number position: "))
+fX1 = int(input("First number: "))
+X2 = int(input("Second number position: "))
+fX2 = int(input("Second number: "))
+X = int(input("Interpolated position: "))
+out = fX1+(fX2-fX1)*(X-X1)/(X2-X1)
+print(out)
+input()
